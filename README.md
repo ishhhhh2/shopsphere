@@ -1,5 +1,15 @@
 # ShopSphere — Modern E-Commerce Storefront
 
+## Live Demo
+
+**Live Website:** https://shopsphere-storefront.netlify.app
+
+**GitHub Repository:** https://github.com/ishhhhh2/shopsphere
+
+Explore the ShopSphere storefront, browse products, manage your cart and wishlist, and try the simulated login and admin features.
+
+> Note: Authentication and checkout are demonstrations only. No real payments are processed.
+
 ## Overview
 
 ShopSphere is a responsive e-commerce storefront built using HTML5, CSS3, and JavaScript. It provides product browsing, search and filtering, a shopping cart, a wishlist, simulated authentication, and an admin dashboard for product management.
@@ -105,3 +115,20 @@ DummyJSON API + Browser localStorage
 ## License
 
 This project was created for learning and portfolio demonstration purposes.
+
+## Screenshots
+
+### Homepage
+![ShopSphere Homepage](screenshots/homepage.png)
+
+### Product Catalog
+![Product Catalog](screenshots/products.png)
+
+### Shopping Cart
+![Shopping Cart](screenshots/cart.png)
+
+### Wishlist
+![Wishlist](screenshots/wishlist.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin.png)
