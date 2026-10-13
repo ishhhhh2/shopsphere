@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShopSphere | Cart</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <nav aria-label="Main navigation">
+
+            <a href="index.html" class="logo">
+                ShopSphere
+            </a>
+
+            <div class="nav-links">
+                <a href="products.html">Products</a>
+                <a href="wishlist.html">Wishlist</a>
+                <a href="cart.html">Cart</a>
+                <a href="login.html">Login</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="featured-section">
+
+            <h1>Your Shopping Cart</h1>
+
+            <div
+                id="cart-container"
+                aria-live="polite"
+            >
+                <!-- Cart items will be rendered here -->
+            </div>
+
+            <section
+                id="cart-summary"
+                aria-labelledby="summary-title"
+            >
+
+                <h2 id="summary-title">
+                    Order Summary
+                </h2>
+
+                <p>
+                    Total Items:
+                    <strong id="cart-count">0</strong>
+                </p>
+
+                <p>
+                    Total Price:
+                    <strong id="cart-total">$0.00</strong>
+                </p>
+
+                <button
+                    type="button"
+                    class="button"
+                    id="checkout-button"
+                >
+                    Proceed to Checkout
+                </button>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 ShopSphere. All rights reserved.
+        </p>
+    </footer>
+
+    <script type="module" src="js/cart.js"></script>
+
+</body>
+
+</html>
